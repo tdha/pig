@@ -1,0 +1,12 @@
+/* * { border: 1px solid red; } */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto; /* easy centering for elements with display block */
+}
+
+section {
+    min-height: 20vh;
+    font-size: 200%;
+    text-align: center;
+}
