@@ -76,7 +76,7 @@ const init = function () {
 // a function is just a thing inside a variable
 const render = function () {
     if (state.winner) {
-        elements.status.innerText = state.winner + 'wins';
+        elements.status.innerText = state.winner + ' wins!';
         // TODO: hide this message 'again maybe?'
     }
     elements.dice.innerHTML = SIDES[state.rolls[0]] + ' ' + SIDES[state.rolls[1]];

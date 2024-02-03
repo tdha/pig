@@ -1,4 +1,6 @@
-/* * { border: 1px solid red; } */
+* {
+    box-sizing: border-box;
+}
 
 .container {
     max-width: 960px;
@@ -9,12 +11,66 @@ section {
     min-height: 20vh;
     font-size: 200%;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 72px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: slategray;
+    text-align: center;
+    margin: 0px auto 20px;
+}
+
+h3 {
+    font-size: 50%;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button.roll {
+    background-color: cyan;
+}
+
+button.hold {
+    background-color: orange;
 }
 
 .currentPlayer {
     border: 5px solid blue;
 }
 
+.currentPlayer.player1 {
+    background-color: honeydew;
+}
+
+.currentPlayer.player2 {
+    background-color: antiquewhite;
+}
+
 .bacon {
-    background-color: pink;
+    color: red;
+}
+
+#dice {
+    font-size: 72px;
+}
+
+#points {
+    font-weight: 200;
+    font-size: 100px;
+    margin: 0;
 }
